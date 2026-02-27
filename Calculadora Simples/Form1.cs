@@ -51,6 +51,26 @@ namespace Calculadora_Simples
             int soma = num1 + num2;
             label5.Text = "Resultado: "+soma;
 
+            //outras conversões
+            //double V = double.Parse(textBox1.text); // conversão de string pra double
+            //ou double V = conver.ToDouble(textBox1.Text);
+
+
+
+            //operadores aritmeticos
+            //+adicao
+            //-subtraçao
+            //* multiplicaçao
+            // / divisão
+            // % resto da divisão
+
+            //operadores relacionais
+            // > maior do que
+            // >= maior ou igual a
+            // < menor do que
+            // <=  menor ou igual a
+            // == igual a
+            // != Diferente de
         }
 
         private void label4_Click(object sender, EventArgs e)
